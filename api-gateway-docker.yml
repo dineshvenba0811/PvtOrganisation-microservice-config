@@ -10,3 +10,11 @@ spring:
           uri: lb://DEPARTMENT-SERVICE
           predicates:
             - Path=/api/departments/**
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://discovery-server:8761/eureka
