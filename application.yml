@@ -1,5 +1,6 @@
 spring:
   datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://mysqldb:3306/orgdatabase
     username: root
   jpa:
