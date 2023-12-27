@@ -1,7 +1,7 @@
 spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/department_db
+    url: jdbc:mysql://${MYSQL_SERVER_URL:localhost:3306/department_db/}
     username: newuser
     password: newuser
   jpa:
