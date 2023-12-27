@@ -10,5 +10,3 @@ spring:
           uri: lb://DEPARTMENT-SERVICE
           predicates:
             - Path=/api/departments/**
-  profiles:
-    active: docker
