@@ -10,6 +10,6 @@ spring:
       ddl-auto: update
       generate-ddl: true
       show-sql: true
-  #profiles:
-    #active: docker
+  profiles:
+    active: docker
   
